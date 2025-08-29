@@ -8,3 +8,21 @@ h3 { color: #388E3C; } /* Verde médio */
 h4 { color: #7B1FA2; } /* Roxo médio */
 h5 { color: #F57C00; } /* Laranja vivo */
 h6 { color: #0097A7; } /* Azul turquesa */
+
+/*----------------------- BOTÃO PROXIMA PAGINA -----------------------------------*/
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1976D2; /* azul */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0D47A1; /* azul mais escuro */
+}
+
