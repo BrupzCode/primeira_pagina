@@ -1,18 +1,83 @@
-<body style ={background-color: "yellow"}>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Site Divertido</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #fdfd96, #ffc0cb);
+      color: #333;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in;
+    }
 
-  <h1 style = {color = "red"}>Olá mundo!</h1>
+    h1 {
+      color: #ff0000;
+      font-size: 3em;
+      text-shadow: 2px 2px #fff;
+      margin-top: 50px;
+      animation: bounce 1.2s ease infinite alternate;
+    }
+
+    hr {
+      border: none;
+      height: 4px;
+      background: linear-gradient(to right, #ff69b4, #ff4500, #ff69b4);
+      width: 60%;
+      margin: 30px auto;
+      border-radius: 2px;
+    }
+
+    h2, h3, h4, h5, h6 {
+      margin: 10px;
+      color: #6a0dad;
+    }
+
+    h2 {
+      font-size: 2em;
+      transform: rotate(-2deg);
+    }
+
+    h3 {
+      font-size: 1.7em;
+    }
+
+    h4 {
+      color: #0099cc;
+    }
+
+    h5 {
+      color: #ff6600;
+    }
+
+    h6 {
+      color: #00cc66;
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Olá mundo!</h1>
   <hr>
 
-  
-  <h2>Títulos 2</h2>
-  <h3>Títulos 3</h3>
-  <h4>Títulos 4</h4>
-  <h5>Títulos 5</h5>
-  <h6>Títulos 6</h6>
+  <h2>Título 2</h2>
+  <h3>Título 3</h3>
+  <h4>Título 4</h4>
+  <h5>Título 5</h5>
+  <h6>Título 6</h6>
 
-
-  
 </body>
-
-
-
+</html>
