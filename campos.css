@@ -1,0 +1,91 @@
+/* Fonte geral e fundo da página */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #e74c3c; /* Vermelho moderno */
+    font-family: 'Lobster', cursive; /* Fonte estilizada */
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #3498db; /* Azul vibrante */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos */
+p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    padding: 0 10px;
+    color: #2c3e50; /* Tom de azul escuro */
+    font-size: 1.1rem;
+}
+
+/* Listas */
+ul {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 0 10px;
+    list-style-type: none; /* retira os bullets para modernizar */
+}
+
+/* Itens da lista */
+li {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: 'Open Sans', sans-serif;
+    color: #34495e;
+}
+
+/* Efeito hover nos itens */
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Imagens dentro da lista */
+li img {
+    display: block;
+    margin: 15px auto 0 auto; /* centraliza a imagem */
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito hover nas imagens */
+li img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Links se houver */
+a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
