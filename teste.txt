@@ -7,3 +7,6 @@ teste de cinexão
  clones texte
 
  usando comandos
+
+
+ testando comando inteiro 
